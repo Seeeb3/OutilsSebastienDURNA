@@ -1,0 +1,12 @@
+pandas
+playwright
+numpy
+torch
+tqdm
+transformers
+scikit-learn
+matplotlib
+seaborn
+wordcloud
+geopandas
+unidecode
