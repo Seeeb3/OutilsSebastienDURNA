@@ -52,3 +52,23 @@ death_row_corpus/
 - Données synthétiques générées
 - Résultats de labellisation zero-shot
 - Évaluation entre méthodes simples et modèles transformers
+
+## Mesures d'évaluation
+
+                precision    recall  f1-score   support
+
+    faith           0.56      0.82      0.67       211
+    family          0.70      0.97      0.81       296
+    forgiveness     0.39      0.90      0.54        93
+    justice         0.25      0.26      0.25        90
+    peace           0.45      0.36      0.40       162
+    regret          0.64      0.61      0.62       210
+
+    micro avg       0.56      0.71      0.62      1062
+    macro avg       0.50      0.65      0.55      1062
+    weighted avg    0.56      0.71      0.61      1062
+    samples avg     0.56      0.67      0.57      1062
+
+Hamming Loss : 0.336
+
+Exact Match Ratio : 0.055
